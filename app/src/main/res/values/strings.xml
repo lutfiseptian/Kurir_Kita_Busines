@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kurir Kita Driver</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="Login_Menggunakan_Akun_Kurir_Kita">Login menggunakan akun Kurir kita</string>
+    <string name="masukan_no_hp">Masukan no HP</string>
+    <string name="masukan_pin">Masukan PIN</string>
+</resources>

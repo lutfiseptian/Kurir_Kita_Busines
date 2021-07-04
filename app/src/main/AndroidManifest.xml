@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kurirkitabusines">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".Activity.MyApps.MyApps"
+        android:allowBackup="true"
+        android:screenOrientation="portrait"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.ScanBarcode.ActivityScanBarcode"></activity>
+        <activity android:name=".Activity.MenuDashboard.ActivityPilihanMenuDashboard" />
+        <activity android:name=".VerifikasiPasswordBaruActivity" />
+<!--        <activity android:name=".Activity.VerifikasiPasswordBaruActivity" />-->
+        <activity android:name=".VerifikasiActivity" />
+        <activity android:name=".Activity.ForgetPassword.ForgetPasswordActivity" />
+        <activity android:name=".Activity.OrderDetailSelesaiActivity.OrderDetailSelesaiActivity" />
+<!--        <activity android:name=".Activity.ListOrderActivity" /> -->
+        <!-- <activity android:name=".OrderDetailActivity"></activity> -->
+        <activity android:name=".Activity.KonfirmasiActivity.KonfirmasiActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity android:name=".Activity.ProfileActivity.ProfileActivity" />
+        <activity android:name=".Activity.DetailActivity.OrderDetailActivity" />
+        <activity android:name=".Activity.LoginActivity.LoginActivity" />
+        <activity android:name=".Activity.DashBoardActivity.DashboardActivity" />
+        <activity android:name=".Activity.SplashActivity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
